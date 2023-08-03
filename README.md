@@ -11,6 +11,7 @@ Primero que nada, vamos a crear un archivo llamado db.json o cualquier otro nomb
 <br>
 
 ``
+
 {
 
   "clientes": [
@@ -65,7 +66,9 @@ Primero que nada, vamos a crear un archivo llamado db.json o cualquier otro nomb
   ]
 
   
-}``
+}
+
+``
 
 ## Instalar JSON-SERVER
 <bold>npm i json-server</bold>
