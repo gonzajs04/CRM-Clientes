@@ -56,7 +56,7 @@ export async function action({ request, params }) {
 export default function EditarCliente() {
     const cliente = useLoaderData();
     const navigate = useNavigate();
-    const data = useActionData();
+    const errores = useActionData();
 
     return (
         <>
@@ -73,7 +73,7 @@ export default function EditarCliente() {
                     Volver
                 </button>
             </div>
-            {data?.length && data.map((error,i) => (
+            {errores?.length && errores.map((error,i) => (
                 <Error key={i}>{error}</Error>
 
         ))}
