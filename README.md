@@ -9,7 +9,7 @@ Al ser un modelo de desarrollo, con una RESTAPI de JSON-SERVER para ejecutar el 
 ## >Crear archivo JSON para hostear API
 Primero que nada, vamos a crear un archivo llamado db.json y colocar lo siguiente:
 
-``{
+``<p>{
   "clientes": [
     {
       "nombre": "Juan(actualizado)",
@@ -49,7 +49,7 @@ Primero que nada, vamos a crear un archivo llamado db.json y colocar lo siguient
       "id": 6
     }
   ]
-}``
+}</p>``
 
 ## Instalar JSON-SERVER
 <bold>npm i json-server</bold>
