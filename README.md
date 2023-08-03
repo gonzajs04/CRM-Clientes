@@ -7,7 +7,7 @@ Se utilizo fetchAPI para consumir la APIREST creada. Se utilizaron variables de 
 
 Al ser un modelo de desarrollo, con una RESTAPI de JSON-SERVER para ejecutar el proyecto, segui los siguientes pasos:
 ## >Crear archivo JSON para hostear API
-Primero que nada, vamos a crear un archivo llamado db.json y colocar lo siguiente:
+Primero que nada, vamos a crear un archivo llamado db.json o cualquier otro nombre y colocar lo siguiente:
 <br>
 ``{
   "clientes": [
@@ -66,6 +66,15 @@ Primero que nada, vamos a crear un archivo llamado db.json y colocar lo siguient
 
 ## Instalar JSON-SERVER
 <bold>npm i json-server</bold>
+
+## Crear archivo .env en raiz del proyecto
+Vamos a crear un archivo llamado .env que contenga lo siguiente:
+VITE_: Ya que es nuestro compilador, y como endpoint / clientes, ya que es el nombre de nuestro json a consumit.
+*** VITE_API_URL =  http://localhost:3000/clientes ***
+
+## Ejecutar JSON-SERVER
+*** json-server --watch "nombrearchivo.json"
+
 
 
 
