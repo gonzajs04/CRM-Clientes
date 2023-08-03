@@ -8,8 +8,8 @@ Se utilizo fetchAPI para consumir la APIREST creada. Se utilizaron variables de 
 Al ser un modelo de desarrollo, con una RESTAPI de JSON-SERVER para ejecutar el proyecto, segui los siguientes pasos:
 ## >Crear archivo JSON para hostear API
 Primero que nada, vamos a crear un archivo llamado db.json y colocar lo siguiente:
-
-<p>``{
+<br>
+``{
   "clientes": [
     {
       "nombre": "Juan(actualizado)",
@@ -49,7 +49,7 @@ Primero que nada, vamos a crear un archivo llamado db.json y colocar lo siguient
       "id": 6
     }
   ]
-}``</p>
+}``
 
 ## Instalar JSON-SERVER
 <bold>npm i json-server</bold>
