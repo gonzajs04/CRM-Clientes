@@ -11,6 +11,7 @@ Primero que nada, vamos a crear un archivo llamado db.json y colocar lo siguient
 <br>
 ``{
   "clientes": [
+  
     {
       "nombre": "Juan(actualizado)",
       "empresa": "Codigo Con Juan",
@@ -19,6 +20,8 @@ Primero que nada, vamos a crear un archivo llamado db.json y colocar lo siguient
       "notas": "asd",
       "id": 1
     },
+
+    
     {
       "id": 2,
       "nombre": "Karen",
@@ -26,6 +29,8 @@ Primero que nada, vamos a crear un archivo llamado db.json y colocar lo siguient
       "email": "karen@juan.com",
       "empresa": "Codigo Con Juan"
     },
+
+    
     {
       "id": 4,
       "nombre": "Miguel",
@@ -33,6 +38,8 @@ Primero que nada, vamos a crear un archivo llamado db.json y colocar lo siguient
       "email": "miguel@juan.com",
       "empresa": "Codigo Con Juan"
     },
+
+    
     {
       "id": 5,
       "nombre": "Pedro",
@@ -40,6 +47,8 @@ Primero que nada, vamos a crear un archivo llamado db.json y colocar lo siguient
       "email": "pedro@juan.com",
       "empresa": "Codigo Con Juan"
     },
+
+    
     {
       "nombre": "Gonzalo",
       "empresa": "ASASDASD",
@@ -48,7 +57,11 @@ Primero que nada, vamos a crear un archivo llamado db.json y colocar lo siguient
       "notas": "asdads",
       "id": 6
     }
+
+    
   ]
+
+  
 }``
 
 ## Instalar JSON-SERVER
