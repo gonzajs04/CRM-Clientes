@@ -70,10 +70,9 @@ Primero que nada, vamos a crear un archivo llamado db.json o cualquier otro nomb
 ## Crear archivo .env en raiz del proyecto
 Vamos a crear un archivo llamado .env que contenga lo siguiente:
 VITE_: Ya que es nuestro compilador, y como endpoint / clientes, ya que es el nombre de nuestro json a consumit.
-*** VITE_API_URL =  http://localhost:3000/clientes ***
-
+VITE_API_URL =  http://localhost:3000/clientes 
 ## Ejecutar JSON-SERVER
-*** json-server --watch "nombrearchivo.json"
+ json-server --watch "nombrearchivo.json"
 
 
 
